@@ -15,12 +15,6 @@ public class FormatApp {
         LocalDate localDate = LocalDate.parse(date, formatter);
         System.out.println(formatter.format(localDate));
         System.out.println(localDate);
-
-
-
-
-
-
     }
 
 

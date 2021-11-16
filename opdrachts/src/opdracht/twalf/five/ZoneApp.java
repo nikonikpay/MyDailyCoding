@@ -13,13 +13,13 @@ public class ZoneApp {
         ZoneId londonZone = ZoneId.of("Europe/London");
         ZoneId sydneyZone = ZoneId.of("Australia/Sydney");
         ZoneId adelideZone = ZoneId.of("Australia/Adelaide");
-        ZoneId utc4 = ZoneOffset.UTC;
+        ZoneId utc = ZoneOffset.UTC;
 
         ZonedDateTime sintNiklaas = ZonedDateTime.now(brusselZone);
         ZonedDateTime nowLondon = ZonedDateTime.now(londonZone);
         ZonedDateTime nowSydney = ZonedDateTime.now(sydneyZone);
         ZonedDateTime nowAdelaide = ZonedDateTime.now(adelideZone);
-        ZonedDateTime utc_4 = ZonedDateTime.now(utc4).minusHours(4);
+        ZonedDateTime utc_4 = ZonedDateTime.now(utc).minusHours(4);
 
 
         System.out.println(sintNiklaas);

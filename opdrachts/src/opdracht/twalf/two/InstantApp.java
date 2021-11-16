@@ -13,8 +13,12 @@ public class InstantApp {
         Instant addNanoSec = addMilliSec.plusNanos(3);
 
 
+        //second way
+        Instant future = instance.plusSeconds(7).plusMillis(5).plusNanos(3);
+
 
         System.out.println("The  current  time is\n "+ instance+"\nAnd the rest is \n" +addNanoSec);
+        System.out.println(future);
 
     }
 
