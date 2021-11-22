@@ -9,7 +9,7 @@ public class Musician {
 
             @Override
             public void makeSound() {
-                System.out.println("This is annonymous class");
+                System.out.println("This is anonymous class");
             }
         };
 
