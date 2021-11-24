@@ -1,5 +1,7 @@
 package easy;
 
+import java.util.Locale;
+
 public class MatchString {
     /*
     Create a function that takes two strings and returns true if the first string ends with the second string; otherwise return false.
@@ -18,7 +20,9 @@ public class MatchString {
    */
 
     public static void main(String[] args) {
-        System.out.println(checkTheEnd("Hi dear hasan","das n     "));;
+        System.out.println(checkTheEnd("Hi dear hasan","das N     "));;
+
+
     }
 
     public static boolean checkTheEnd(String s1, String s2){
@@ -26,8 +30,8 @@ public class MatchString {
             return false;
         }
 
-        s1 = s1.trim();
-        s2 = s2.trim();
+        s1 = s1.trim().toLowerCase();
+        s2 = s2.trim().toLowerCase();
         int lastChar1 = s1.charAt(s1.length()-1);
         int lastChar2 = s2.charAt(s2.length()-1);
 
