@@ -1,4 +1,4 @@
-package serialization;
+package javamaster.serialization;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

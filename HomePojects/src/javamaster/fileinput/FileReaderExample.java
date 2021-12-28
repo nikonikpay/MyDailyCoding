@@ -1,4 +1,4 @@
-package home.ali.fileinput;
+package javamaster.fileinput;
 
 import java.io.*;
 

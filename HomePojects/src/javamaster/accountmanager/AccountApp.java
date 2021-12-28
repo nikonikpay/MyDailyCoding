@@ -1,4 +1,4 @@
-package accountmanager;
+package javamaster.accountmanager;
 
 import java.io.*;
 import java.util.HashMap;

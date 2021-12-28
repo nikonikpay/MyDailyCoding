@@ -2,17 +2,20 @@ package opdracht.twenty;
 
 import java.util.*;
 
-public class exercise20 {
+public class exercise20
+    {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+        {
         Set<Integer> myInput = new HashSet<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Give 5 Numbers");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++)
+            {
             int userinput = sc.nextInt();
             myInput.add(userinput);
-        }
+            }
 
         myInput.forEach(System.out::println);
 //        int sum = myInput.stream()
@@ -27,6 +30,6 @@ public class exercise20 {
 //            System.out.println(optionalDouble.getAsDouble());
 //        }
 
-    }
+        }
 
-}
+    }
